@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LAKHA JARVIS AI</string>
+    <string name="creator_name">LAKHA RATHOD</string>
+    <string name="accessibility_service_description">LAKHA JARVIS AI Accessibility Assistant helps you perform user-requested device actions like pressing Back, Home, and opening Notifications hands-free or via voice commands. It operates strictly on your explicit command and never collects or monitors your private screen data.</string>
+    <string name="overlay_service_title">JARVIS Floating Assistant</string>
+    <string name="overlay_service_desc">Floating holographic AI bubble is active.</string>
+</resources>

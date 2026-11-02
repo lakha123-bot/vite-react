@@ -1,0 +1,6 @@
+{
+  "name": "LAKHA JARVIS AI",
+  "description": "Futuristic AI Assistant with holographic orb, Gemini Live Voice, native device control, AI memory and overlay by LAKHA RATHOD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

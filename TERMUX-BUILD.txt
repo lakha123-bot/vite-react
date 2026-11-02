@@ -1,0 +1,16 @@
+LAKHA JARVIS AI - TERMUX BUILD NOTES
+
+This is a native Kotlin/Jetpack Compose Android project.
+Package: com.lakharathod.jarvis
+Minimum Android: 8.0 (API 26)
+
+Build from Termux with a working JDK 17+, Android SDK, and Gradle 9.3.1+.
+The project requests compile SDK 36.1. Install platform platforms;android-36.1 (or adjust compileSdk to an installed supported platform if unavailable).
+
+The ZIP intentionally uses Gradle's default debug signing. No debug.keystore is required.
+Run: gradle assembleDebug
+APK: app/build/outputs/apk/debug/app-debug.apk
+
+IMPORTANT FEATURE NOTE:
+The current voice conversation loop uses Android SpeechRecognizer and TextToSpeech with the standard Gemini text API. It is not yet a true Gemini Live bidirectional streaming session.
+Enter your Gemini API key inside the app Settings. Do not publish a ZIP/APK containing a private key.
